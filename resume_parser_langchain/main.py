@@ -74,6 +74,51 @@ class ResumeData(BaseModel):
     skills: List[SkillCategory] = Field(default_factory=list)
 
 
+def _new_library() -> dict:
+    # Minimal MVP library structure / 最小可用的简历库结构
+    return {
+        "experience": [],
+        "projects": [],
+        "education": [],
+        "skills": [],
+    }
+
+
+def append_to_library(parsed: ResumeData, library_path: Path) -> dict:
+    """
+    Append parsed sections into library JSON.
+    把本次解析结果追加到简历库 JSON。
+
+    Rules (MVP) / 规则（MVP）：
+    - If library file does not exist, create it.
+      文件不存在就新建。
+    - Only expand experience/projects/education/skills.
+      只扩展这四个部分。
+    - No deduplication in MVP.
+      MVP 不做去重。
+    """
+    if not library_path.exists():
+        library = _new_library()
+    else:
+        raw = library_path.read_text(encoding="utf-8").strip()
+        library = _new_library() if not raw else json.loads(raw)
+        # Backfill keys for compatibility / 兼容旧文件缺少字段的情况
+        for key, default in _new_library().items():
+            library.setdefault(key, default)
+
+    payload = parsed.model_dump()
+    library["experience"].extend(payload.get("experience", []))
+    library["projects"].extend(payload.get("projects", []))
+    library["education"].extend(payload.get("education", []))
+    library["skills"].extend(payload.get("skills", []))
+
+    library_path.write_text(
+        json.dumps(library, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    return library
+
+
 def to_pdf_data_url(pdf_path: Path) -> str:
     """
     Convert a local PDF file to a data URL string.
@@ -188,6 +233,11 @@ def main() -> None:
         default="resume_data.json",
         help="Path to output JSON file (default: resume_data.json).",
     )
+    parser.add_argument(
+        "--library",
+        default="resume_library.json",
+        help="Path to aggregated library JSON (default: resume_library.json).",
+    )
     args = parser.parse_args()
 
     # Read model config from env; default to gpt-4.1
@@ -197,6 +247,7 @@ def main() -> None:
     # 把路径参数转成 Path 对象，便于安全处理文件
     pdf_path = Path(args.input)
     output_path = Path(args.output)
+    library_path = Path(args.library)
 
     # Basic input validation
     # 输入文件存在性检查
@@ -214,10 +265,17 @@ def main() -> None:
         json.dumps(parsed.model_dump(), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    library = append_to_library(parsed=parsed, library_path=library_path)
 
     # Print output path for quick check
     # 打印输出文件路径，方便你立即查看
     print(f"Done. Parsed JSON saved to: {output_path.resolve()}")
+    print(
+        "Library updated: "
+        f"{library_path.resolve()} "
+        f"(exp={len(library['experience'])}, proj={len(library['projects'])}, "
+        f"edu={len(library['education'])}, skills={len(library['skills'])})"
+    )
 
 
 if __name__ == "__main__":
