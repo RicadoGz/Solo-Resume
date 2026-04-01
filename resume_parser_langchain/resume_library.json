@@ -1,7 +1,185 @@
 {
   "experience": [
     {
+      "title": "Full-Stack Developer Engineer",
+      "company": "Stealth Startup",
+      "location": "Waterloo / ON",
+      "start_date": "Sep 2025",
+      "end_date": "Feb 2026",
+      "details": [
+        "Supported and enhanced a production web system using Django and REST Framework, contributing to application workflows and system reliability within a cloud-based environment.",
+        "Assisted in maintaining an automated data collection process (Selenium, Requests), supporting scheduled execution, retries, deduplication, and structured CSV outputs for operational reporting."
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Velric (early-stage startup)",
+      "location": "San Francisco / CA",
+      "start_date": "Aug 2025",
+      "end_date": "Oct 2025",
+      "details": [
+        "Developed a full-stack submission feature by integrating a Next.js (React + TypeScript) client with a FastAPI API.",
+        "Built core submission endpoints with Pydantic validation, iteratively debugging and refining OPENAI API prompt that reduced response waiting time by 20%."
+      ]
+    },
+    {
+      "title": "Peer-Assisted Learning (PAL) Leader – C Programming",
+      "company": "Conestoga College",
+      "location": "Waterloo / ON",
+      "start_date": "Jan 2025",
+      "end_date": "Apr 2025",
+      "details": [
+        "Provided technical support through collaborative debugging sessions, investigating issues and explaining root causes to users with varying technical backgrounds.",
+        "Helped a student raise quiz from 20% to 90% and assignment grade from 40% to 99.5% within 6 weeks."
+      ]
+    },
+    {
+      "title": "Executive Leader",
+      "company": "Google Developer Group Waterloo",
+      "location": "Waterloo / ON",
+      "start_date": "Oct 2024",
+      "end_date": "Present",
+      "details": [
+        "Reduced manual setup time by 75% by building a Python automation script on Raspberry Pi to configure and automate keypad input.",
+        "Attracted 300 people through 6 workshops delivering sessions on Flask, Python, and Selenium."
+      ]
+    },
+    {
       "title": "Co-Founder & Full-Stack Developer",
+      "company": "Stealth Startup",
+      "location": "Waterloo / ON",
+      "start_date": "Sep 2025",
+      "end_date": "Feb 2026",
+      "details": [
+        "Supported and enhanced a production web system using Django and REST Framework, contributing to application workflows and system reliability within a cloud-based environment.",
+        "Assisted in maintaining an automated data collection process (Selenium, Requests), supporting scheduled execution, retries, deduplication, and structured CSV outputs for operational reporting."
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Velric (early-stage startup)",
+      "location": "San Francisco / CA",
+      "start_date": "Aug 2025",
+      "end_date": "Oct 2025",
+      "details": [
+        "Developed a full-stack submission feature by integrating a Next.js (React + TypeScript) client with a FastAPI API.",
+        "Built core submission endpoints with Pydantic validation, iteratively debugging and refining OPENAI API prompt that reduced response waiting time by 20%."
+      ]
+    },
+    {
+      "title": "Peer-Assisted Learning (PAL) Leader – C Programming",
+      "company": "Conestoga College",
+      "location": "Waterloo / ON",
+      "start_date": "Jan 2025",
+      "end_date": "Apr 2025",
+      "details": [
+        "Provided technical support through collaborative debugging sessions, investigating issues and explaining root causes to users with varying technical backgrounds.",
+        "Helped a student raise quiz from 20% to 90% and assignment grade from 40% to 99.5% within 6 weeks."
+      ]
+    },
+    {
+      "title": "Executive Leader",
+      "company": "Google Developer Group Waterloo",
+      "location": "Waterloo / ON",
+      "start_date": "Oct 2024",
+      "end_date": "Present",
+      "details": [
+        "Reduced manual setup time by 75% by building a Python automation script on Raspberry Pi to configure and automate keypad input.",
+        "Attracted 300 people through 6 workshops delivering sessions on Flask, Python, and Selenium."
+      ]
+    },
+    {
+      "title": "Co-Founder & Full-Stack Developer",
+      "company": "Stealth Startup",
+      "location": "Waterloo / ON",
+      "start_date": "Sep 2025",
+      "end_date": "Feb 2026",
+      "details": [
+        "Designed and developed a full-stack web platform using Django and REST Framework, with a modular React + TypeScript frontend deployed on Azure, supporting core application workflows and user-facing features.",
+        "Engineered a production-grade automated data collection system (Selenium + Requests) as a core backend module, processing 35,000+ records per week with scheduling, retries, deduplication, and CSV export."
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Velric (early-stage startup)",
+      "location": "San Francisco / CA",
+      "start_date": "Aug 2025",
+      "end_date": "Oct 2025",
+      "details": [
+        "Implemented an end-to-end submission feature that reduced response waiting time by 20% by integrating Next.js (React + TypeScript) with a FastAPI backend",
+        "Reduced 2 bugs by enforcing Pydantic validation on core submission endpoints."
+      ]
+    },
+    {
+      "title": "Peer-Assisted Learning (PAL) Leader – C Programming",
+      "company": "Conestoga College",
+      "location": "Waterloo / ON",
+      "start_date": "Jan 2025",
+      "end_date": "Apr 2025",
+      "details": [
+        "Led 20 hands-on debugging sessions totaling 60 hours by running collaborative, real-world practice workshops.",
+        "Improved one student’s quiz score from 20% → 90% and assignment grade from 40% → 99.5% in 6 weeks"
+      ]
+    },
+    {
+      "title": "Executive Leader",
+      "company": "Google Developer Group Waterloo",
+      "location": "Waterloo / ON",
+      "start_date": "Oct 2024",
+      "end_date": "Present",
+      "details": [
+        "Reduced manual setup time by 75% by building a Python automation script on Raspberry Pi to configure",
+        "Attracted 300 people through 6 workshops delivering sessions on Flask, Python, and Selenium."
+      ]
+    },
+    {
+      "title": "Co-Founder & AI Developer",
+      "company": "Stealth Startup",
+      "location": "Waterloo / ON",
+      "start_date": "Sep 2025",
+      "end_date": "Feb 2026",
+      "details": [
+        "Designed and delivered a full-stack web platform using Django + REST (end-to-end feature development).",
+        "Built a customer-support RAG system in Python on a 27K dataset, covering CSV/JSON ingestion, dual retrieval (dense embeddings + scikit-learn TF-IDF), and NumPy similarity ranking with deterministic top-k selection.",
+        "Implemented evidence-grounded answer generation with Ollama and supported analytics/reporting in Power BI.",
+        "Hardened LLM extraction via OpenAI API using structured outputs + validation + regression tests for stability."
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
+      "company": "Velric (early-stage startup)",
+      "location": "San Francisco / CA",
+      "start_date": "Aug 2025",
+      "end_date": "Oct 2025",
+      "details": [
+        "Developed a full-stack submission feature by integrating a Next.js (React + TypeScript) client with a FastAPI API.",
+        "refining OpenAI API prompt that reduced response waiting time by 20%"
+      ]
+    },
+    {
+      "title": "Peer-Assisted Learning (PAL) Leader – C Programming",
+      "company": "Conestoga College",
+      "location": "Waterloo / ON",
+      "start_date": "Jan 2025",
+      "end_date": "Apr 2025",
+      "details": [
+        "Led 20 hands-on debugging sessions totaling 60 hours by running collaborative, real-world practice workshops.",
+        "Improved one student’s quiz score from 20% → 90% and assignment grade from 40% → 99.5% in 6 weeks"
+      ]
+    },
+    {
+      "title": "Executive Leader",
+      "company": "Google Developer Group Waterloo",
+      "location": "Waterloo / ON",
+      "start_date": "Oct 2024",
+      "end_date": "Present",
+      "details": [
+        "Reduced manual setup time by 75% by building a Python automation script on Raspberry Pi to configure",
+        "Attracted 300 people through 6 workshops delivering sessions on Flask, Python, and Selenium."
+      ]
+    },
+    {
+      "title": "Full-Stack Developer Engineer",
       "company": "Stealth Startup",
       "location": "Waterloo / ON",
       "start_date": "Sep 2025",
@@ -47,7 +225,107 @@
   ],
   "projects": [
     {
+      "title": "TCP/IP Messaging Service & WPF Client — C#, .NET Framework 4.7.2",
+      "start_date": "Nov 2025",
+      "end_date": null,
+      "details": [
+        "Developed and supported a Windows-based service enabling TCP/IP communication between system components, using structured configuration and logging to assist monitoring and troubleshooting.",
+        "Built a client application to periodically poll system messages, improving operational visibility and reducing manual monitoring effort."
+      ]
+    },
+    {
+      "title": "AI-Powered AuditRAG — Traceable Answering System | GITHUB",
+      "start_date": "Dec 2025",
+      "end_date": "Present",
+      "details": [
+        "Built a source-grounded RAG system with normalized chunking, JSONL indexing, stable chunk anchors, and dense embedding retrieval cutting unsupported answers by 20%.",
+        "Implemented an AI research assistant to automate ingestion and retrieval over financial filings and market news, enabling semantic top-k search across embedded chunks."
+      ]
+    },
+    {
+      "title": "Stock Daily Report Automation (UIPath)",
+      "start_date": "Nov 2025",
+      "end_date": null,
+      "details": [
+        "Developed a UIPath automation to retrieve and process daily market data for a small configurable list of stock tickers and generate a standardized Excel report.",
+        "Automated report distribution via Outlook email, reducing manual reporting steps by 30% and improving consistency of daily delivery."
+      ]
+    },
+    {
       "title": "AI-Powered AuditRAG — Traceable Answering System",
+      "start_date": "Dec 2025",
+      "end_date": "Present",
+      "details": [
+        "Built a source-grounded RAG system with normalized chunking, JSONL indexing, stable chunk anchors, and dense embedding retrieval cutting unsupported answers by 20%.",
+        "Implemented an AI research assistant to automate ingestion and retrieval over financial filings and market news, enabling semantic top-k search across embedded chunks."
+      ]
+    },
+    {
+      "title": "Stock Daily Report Automation (UIPath)",
+      "start_date": "Nov 2025",
+      "end_date": null,
+      "details": [
+        "Developed a UIPath automation to retrieve and process daily market data for a small configurable list of stock tickers and generate a standardized Excel report.",
+        "Automated report distribution via Outlook email, reducing manual reporting steps by 30% and improving consistency of daily delivery."
+      ]
+    },
+    {
+      "title": "Automated Linux Security Self-Check",
+      "start_date": "Dec 2025",
+      "end_date": null,
+      "details": [
+        "Developed a Python automation to perform recurring Linux security self-checks (SSH configuration, authentication detection and exposure monitoring) and generate standardized, timestamped audit reports.",
+        "Automated scheduled execution and report generation, reducing manual verification effort by 50%",
+        "Added error handling (retry logic, safe fallbacks, and clear PASS/WARN/FAIL summaries) to handle variations"
+      ]
+    },
+    {
+      "title": "Stock Daily Report Automation (UIPath)",
+      "start_date": "Nov 2025",
+      "end_date": null,
+      "details": [
+        "Developed a UIPath automation to retrieve and process daily market data for a small configurable list of stock tickers and generate a standardized Excel report.",
+        "Automated report distribution via Outlook email, reducing manual reporting steps by 30%"
+      ]
+    },
+    {
+      "title": "N8n Trend-to-Script Factory",
+      "start_date": "Jan 2026",
+      "end_date": "Present",
+      "details": [
+        "Reduced turnaround 25% by automating a social media scripting pipeline using n8n, OpenAI API, and workflow UX.",
+        "Cut duplicate outputs 20% by standardizing inputs/outputs, adding dedup, and enforcing error handling."
+      ]
+    },
+    {
+      "title": "AI-Powered AuditRAG — Traceable Answering System | GITHUB",
+      "start_date": "Jan 2026",
+      "end_date": null,
+      "details": [
+        "Built a source-grounded RAG with chunking, embedding and retrieval cutting unsupported answers by 20%.",
+        "Implemented AI research assistant to automate ingestion and retrieval over financial filings and market news, enabling semantic top-k search across embedded chunks."
+      ]
+    },
+    {
+      "title": "Stock Daily Report Automation (UIPath)",
+      "start_date": "Jan 2026",
+      "end_date": null,
+      "details": [
+        "Developed a UIPath automation to retrieve and process daily market data with stronger retry logic",
+        "Automated report distribution via Outlook email, reducing manual reporting steps by 30% a"
+      ]
+    },
+    {
+      "title": "TCP/IP Messaging Service & WPF Client — C#, .NET Framework 4.7.2",
+      "start_date": "Nov 2025",
+      "end_date": null,
+      "details": [
+        "Developed and supported a Windows-based service enabling TCP/IP communication between system components, using structured configuration and logging to assist monitoring and troubleshooting.",
+        "Built a client application to periodically poll system messages, improving operational visibility and reducing manual monitoring effort."
+      ]
+    },
+    {
+      "title": "AI-Powered AuditRAG — Traceable Answering System | GITHUB",
       "start_date": "Dec 2025",
       "end_date": "Present",
       "details": [
@@ -71,9 +349,79 @@
       "major": "Software Engineering Technology (GPA 3.95/4.0)",
       "start_date": "Sep 2024",
       "end_date": "Dec 2028"
+    },
+    {
+      "school": "Conestoga College",
+      "major": "Software Engineering Technology (GPA 3.95/4.0)",
+      "start_date": "Sep 2024",
+      "end_date": "Dec 2028"
+    },
+    {
+      "school": "Conestoga College",
+      "major": "Software Engineering Technology (GPA 3.95/4.0)",
+      "start_date": "Sep 2024",
+      "end_date": "Dec 2028"
+    },
+    {
+      "school": "Conestoga College",
+      "major": "Software Engineering Technology (GPA 3.95/4.0)",
+      "start_date": "Sep 2024",
+      "end_date": "Dec 2028"
+    },
+    {
+      "school": "Conestoga College",
+      "major": "Software Engineering Technology",
+      "start_date": "Sep 2024",
+      "end_date": "Dec 2028"
     }
   ],
   "skills": [
+    {
+      "title": "Networking Fundamentals",
+      "skills": [
+        "OSI model",
+        "TCP/IP",
+        "DNS",
+        "DHCP",
+        "Windows/Linux/macOS administration",
+        "troubleshooting"
+      ]
+    },
+    {
+      "title": "Automation & Data Collection",
+      "skills": [
+        "Python",
+        "PowerShell",
+        "RPA",
+        "UiPath",
+        "Selenium",
+        "REST APIs",
+        "JSON",
+        "safe automation patterns: read-only-first, idempotent execution"
+      ]
+    },
+    {
+      "title": "AIOps / IT Ops Concepts",
+      "skills": [
+        "CMDB (ServiceNow CMDB)",
+        "ticketing (Jira)",
+        "exposure to Automation Anywhere",
+        "log analysis",
+        "SDLC documentation"
+      ]
+    },
+    {
+      "title": "Achievement & certificate",
+      "skills": [
+        "Certificates: Supervised Machine Learning",
+        "Programming for Everybody",
+        "CS50p (Harvard)",
+        "Hackathons: ConHacks",
+        "SpurHacks",
+        "Volunteer: GDG Waterloo DevFest",
+        "Conestoga College Open House (GDG Club, SET Program)"
+      ]
+    },
     {
       "title": "Operating Systems & Systems Analysis",
       "skills": [
@@ -109,6 +457,166 @@
         "SharePoint",
         "Visual Studio 2019/2022",
         "Selenium"
+      ]
+    },
+    {
+      "title": "Programming Languages",
+      "skills": [
+        "C#",
+        "Python",
+        "SQL",
+        "JavaScript",
+        "TypeScript",
+        "C",
+        "PowerShell",
+        "PHP",
+        "HTML",
+        "CSS",
+        "XML"
+      ]
+    },
+    {
+      "title": "Testing & Quality",
+      "skills": [
+        "Unit testing",
+        "API testing (Postman)",
+        "UI testing",
+        "system testing",
+        "manual testing",
+        "Selenium-based automated testing",
+        "bug reproduction",
+        "test validation",
+        "test documentation"
+      ]
+    },
+    {
+      "title": "Databases",
+      "skills": [
+        "Microsoft SQL Server (2019+)",
+        "relational database design",
+        "database-driven web applications",
+        "T-sql"
+      ]
+    },
+    {
+      "title": "Tools & Practices",
+      "skills": [
+        "Git",
+        "GitHub",
+        "Visual Studio 2019/2022",
+        "Agile-style workflows (Scrum/Kanban)",
+        "Selenium"
+      ]
+    },
+    {
+      "title": "Other",
+      "skills": [
+        "Hackathons: ConHacks; SpurHacks",
+        "Volunteer: GDG Waterloo DevFest; Conestoga College Open House (GDG Club, SET Program)"
+      ]
+    },
+    {
+      "title": "Languages & Data",
+      "skills": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "NumPy",
+        "scikit-learn",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "AI & LLM",
+      "skills": [
+        "NLP",
+        "LLM",
+        "RAG",
+        "prompt engineering",
+        "structured outputs",
+        "OpenAI API",
+        "Gemini API",
+        "vibe coding"
+      ]
+    },
+    {
+      "title": "Testing & Evaluation",
+      "skills": [
+        "data validation",
+        "regression testing",
+        "model evaluation",
+        "accuracy metrics",
+        "reliability checks"
+      ]
+    },
+    {
+      "title": "Automation & Delivery",
+      "skills": [
+        "API integration",
+        "Django",
+        "FastAPI",
+        "Flask",
+        "Selenium",
+        "UIPath",
+        "GitHub",
+        "deployment support"
+      ]
+    },
+    {
+      "title": "Networking Fundamentals",
+      "skills": [
+        "OSI model",
+        "TCP/IP",
+        "DNS",
+        "DHCP",
+        "Windows/Linux/macOS administration",
+        "troubleshooting"
+      ]
+    },
+    {
+      "title": "Automation & Data Collection",
+      "skills": [
+        "Python",
+        "PowerShell",
+        "RPA",
+        "UiPath",
+        "Selenium",
+        "REST APIs",
+        "JSON",
+        "safe automation patterns: read-only-first, idempotent execution"
+      ]
+    },
+    {
+      "title": "AIOps / IT Ops Concepts",
+      "skills": [
+        "CMDB (ServiceNow CMDB)",
+        "ticketing (Jira)",
+        "exposure to Automation Anywhere",
+        "log analysis",
+        "SDLC documentation"
+      ]
+    },
+    {
+      "title": "Certificates",
+      "skills": [
+        "Supervised Machine Learning",
+        "Programming for Everybody",
+        "CS50p (Harvard)"
+      ]
+    },
+    {
+      "title": "Hackathons",
+      "skills": [
+        "ConHacks",
+        "SpurHacks"
+      ]
+    },
+    {
+      "title": "Volunteer",
+      "skills": [
+        "GDG Waterloo DevFest",
+        "Conestoga College Open House (GDG Club, SET Program)"
       ]
     }
   ]

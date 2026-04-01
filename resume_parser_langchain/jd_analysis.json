@@ -1,0 +1,70 @@
+{
+  "job_title": "AI / Networking Teaching Assistant",
+  "company": null,
+  "seniority": null,
+  "employment_type": null,
+  "location_mode": null,
+  "keywords": [
+    "TCP/IP",
+    "AI",
+    "RAG",
+    "networking",
+    "socket communication",
+    "protocol understanding",
+    "network troubleshooting",
+    "AI / LLM-based applications",
+    "document processing",
+    "embeddings",
+    "retrieval",
+    "response generation",
+    "teaching assistant",
+    "technical documentation",
+    "demos",
+    "implementation"
+  ],
+  "must_have_skills": [
+    "TCP/IP networking",
+    "socket communication",
+    "basic protocol understanding",
+    "network troubleshooting",
+    "AI / LLM systems",
+    "RAG pipelines and workflows",
+    "technical explanation and teaching ability",
+    "hands-on technical and coding skills"
+  ],
+  "nice_to_have_skills": [],
+  "soft_skills": [
+    "ability to explain technical material clearly",
+    "support others in teaching or mentoring capacity"
+  ],
+  "responsibilities": [
+    "Support work involving TCP/IP networking, socket communication, basic protocol understanding, and network troubleshooting",
+    "Assist with the development and testing of AI / LLM-based applications",
+    "Help build and improve RAG systems, including document processing, embeddings, retrieval, and response generation",
+    "Provide teaching assistant support, including answering questions, explaining technical concepts, supporting labs or exercises, and helping others debug problems",
+    "Contribute to technical documentation, demos, and implementation tasks"
+  ],
+  "required_experience": [
+    "Solid understanding of TCP/IP and network fundamentals",
+    "Practical experience with AI / LLM systems",
+    "Familiarity with RAG pipelines and related workflows",
+    "Teaching assistant, tutoring, or mentoring experience",
+    "Strong hands-on technical and coding skills"
+  ],
+  "education_requirements": [],
+  "certifications": [],
+  "ats_keywords": [
+    "TCP/IP",
+    "networking",
+    "AI",
+    "LLM",
+    "RAG",
+    "teaching assistant",
+    "tutoring",
+    "mentoring",
+    "technical projects"
+  ],
+  "rejection_signals": [
+    "Profile heavily centered on club activities, student organizations, or similar extracurricular involvement"
+  ]
+}

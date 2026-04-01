@@ -1,0 +1,191 @@
+{
+  "retrieval_mode": "keyword",
+  "embedding_model": "text-embedding-3-small",
+  "db_path": "/Users/gz/Desktop/coding/Resume-Solo/resume_parser_langchain/resume_embeddings.db",
+  "library_items": 60,
+  "query_count": 24,
+  "query_fields_used": [
+    "must_have_skills",
+    "keywords",
+    "soft_skills"
+  ],
+  "threshold": 0.38,
+  "dedup_similarity": 0.9,
+  "top_k": 5,
+  "experience_results": [
+    {
+      "doc_id": "experience:12",
+      "source_type": "experience",
+      "title": "Co-Founder & AI Developer",
+      "keyword_score": 4,
+      "coverage": 0.1667,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        },
+        {
+          "query_type": "keywords",
+          "query": "RAG"
+        },
+        {
+          "query_type": "keywords",
+          "query": "embeddings"
+        },
+        {
+          "query_type": "keywords",
+          "query": "retrieval"
+        }
+      ],
+      "text": "Experience: Co-Founder & AI Developer. Company: Stealth Startup. Location: Waterloo / ON. Date: Sep 2025 - Feb 2026. Details: Designed and delivered a full-stack web platform using Django + REST (end-to-end feature development). Built a customer-support RAG system in Python on a 27K dataset, covering CSV/JSON ingestion, dual retrieval (dense embeddings + scikit-learn TF-IDF), and NumPy similarity "
+    },
+    {
+      "doc_id": "experience:0",
+      "source_type": "experience",
+      "title": "Full-Stack Developer Engineer",
+      "keyword_score": 1,
+      "coverage": 0.0417,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Experience: Full-Stack Developer Engineer. Company: Stealth Startup. Location: Waterloo / ON. Date: Sep 2025 - Feb 2026. Details: Supported and enhanced a production web system using Django and REST Framework, contributing to application workflows and system reliability within a cloud-based environment. Assisted in maintaining an automated data collection process (Selenium, Requests), supporting s"
+    },
+    {
+      "doc_id": "experience:1",
+      "source_type": "experience",
+      "title": "Software Developer Intern",
+      "keyword_score": 1,
+      "coverage": 0.0417,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Experience: Software Developer Intern. Company: Velric (early-stage startup). Location: San Francisco / CA. Date: Aug 2025 - Oct 2025. Details: Developed a full-stack submission feature by integrating a Next.js (React + TypeScript) client with a FastAPI API. Built core submission endpoints with Pydantic validation, iteratively debugging and refining OPENAI API prompt that reduced response waiting "
+    },
+    {
+      "doc_id": "experience:2",
+      "source_type": "experience",
+      "title": "Peer-Assisted Learning (PAL) Leader – C Programming",
+      "keyword_score": 1,
+      "coverage": 0.0417,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Experience: Peer-Assisted Learning (PAL) Leader – C Programming. Company: Conestoga College. Location: Waterloo / ON. Date: Jan 2025 - Apr 2025. Details: Provided technical support through collaborative debugging sessions, investigating issues and explaining root causes to users with varying technical backgrounds. Helped a student raise quiz from 20% to 90% and assignment grade from 40% to 99.5% w"
+    },
+    {
+      "doc_id": "experience:3",
+      "source_type": "experience",
+      "title": "Executive Leader",
+      "keyword_score": 1,
+      "coverage": 0.0417,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Experience: Executive Leader. Company: Google Developer Group Waterloo. Location: Waterloo / ON. Date: Oct 2024 - Present. Details: Reduced manual setup time by 75% by building a Python automation script on Raspberry Pi to configure and automate keypad input. Attracted 300 people through 6 workshops delivering sessions on Flask, Python, and Selenium."
+    }
+  ],
+  "project_results": [
+    {
+      "doc_id": "project:1",
+      "source_type": "project",
+      "title": "AI-Powered AuditRAG — Traceable Answering System | GITHUB",
+      "keyword_score": 3,
+      "coverage": 0.125,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        },
+        {
+          "query_type": "keywords",
+          "query": "RAG"
+        },
+        {
+          "query_type": "keywords",
+          "query": "retrieval"
+        }
+      ],
+      "text": "Project: AI-Powered AuditRAG — Traceable Answering System | GITHUB. Date: Dec 2025 - Present. Details: Built a source-grounded RAG system with normalized chunking, JSONL indexing, stable chunk anchors, and dense embedding retrieval cutting unsupported answers by 20%. Implemented an AI research assistant to automate ingestion and retrieval over financial filings and market news, enabling semantic t"
+    },
+    {
+      "doc_id": "project:8",
+      "source_type": "project",
+      "title": "AI-Powered AuditRAG — Traceable Answering System | GITHUB",
+      "keyword_score": 3,
+      "coverage": 0.125,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        },
+        {
+          "query_type": "keywords",
+          "query": "RAG"
+        },
+        {
+          "query_type": "keywords",
+          "query": "retrieval"
+        }
+      ],
+      "text": "Project: AI-Powered AuditRAG — Traceable Answering System | GITHUB. Date: Jan 2026 - . Details: Built a source-grounded RAG with chunking, embedding and retrieval cutting unsupported answers by 20%. Implemented AI research assistant to automate ingestion and retrieval over financial filings and market news, enabling semantic top-k search across embedded chunks."
+    },
+    {
+      "doc_id": "project:0",
+      "source_type": "project",
+      "title": "TCP/IP Messaging Service & WPF Client — C#, .NET Framework 4.7.2",
+      "keyword_score": 2,
+      "coverage": 0.0833,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "TCP/IP"
+        },
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Project: TCP/IP Messaging Service & WPF Client — C#, .NET Framework 4.7.2. Date: Nov 2025 - . Details: Developed and supported a Windows-based service enabling TCP/IP communication between system components, using structured configuration and logging to assist monitoring and troubleshooting. Built a client application to periodically poll system messages, improving operational visibility and reduc"
+    },
+    {
+      "doc_id": "project:2",
+      "source_type": "project",
+      "title": "Stock Daily Report Automation (UIPath)",
+      "keyword_score": 1,
+      "coverage": 0.0417,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Project: Stock Daily Report Automation (UIPath). Date: Nov 2025 - . Details: Developed a UIPath automation to retrieve and process daily market data for a small configurable list of stock tickers and generate a standardized Excel report. Automated report distribution via Outlook email, reducing manual reporting steps by 30% and improving consistency of daily delivery."
+    },
+    {
+      "doc_id": "project:5",
+      "source_type": "project",
+      "title": "Automated Linux Security Self-Check",
+      "keyword_score": 1,
+      "coverage": 0.0417,
+      "matched_keywords": [
+        {
+          "query_type": "keywords",
+          "query": "AI"
+        }
+      ],
+      "text": "Project: Automated Linux Security Self-Check. Date: Dec 2025 - . Details: Developed a Python automation to perform recurring Linux security self-checks (SSH configuration, authentication detection and exposure monitoring) and generate standardized, timestamped audit reports. Automated scheduled execution and report generation, reducing manual verification effort by 50% Added error handling (retry "
+    }
+  ]
+}

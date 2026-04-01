@@ -1,0 +1,52 @@
+Job Description: AI / Networking Teaching Assistant
+
+We are hiring a candidate with strong technical ability in TCP/IP, AI, and RAG, plus the ability to function as a teaching assistant in a practical, hands-on environment.
+
+Responsibilities
+
+- Support work involving TCP/IP networking, socket communication, basic protocol understanding, and network troubleshooting.
+- Assist with the development and testing of AI / LLM-based applications.
+- Help build and improve RAG systems, including document processing, embeddings, retrieval, and response generation.
+- Provide teaching assistant support, including answering questions, explaining technical concepts, supporting labs or exercises, and helping others debug problems.
+- Contribute to technical documentation, demos, and implementation tasks.
+
+Requirements
+
+- Solid understanding of TCP/IP and network fundamentals.
+- Practical experience with AI / LLM systems.
+- Familiarity with RAG pipelines and related workflows.
+- Ability to explain technical material clearly and support others in a teaching or mentoring capacity.
+- Strong hands-on technical and coding skills.
+
+Candidate Screening
+
+We care about technical competence, execution, and teaching ability.
+
+If your profile is heavily centered on club activities, student organizations, or similar extracurricular involvement, you are not a fit for this role. We do not consider such experience valuable here, and candidates who emphasize it will be rejected.
+
+Application Note
+
+Please focus your application on:
+
+- TCP/IP or networking experience
+- AI / LLM / RAG experience
+- Teaching assistant, tutoring, or mentoring experience
+- Strong technical projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
